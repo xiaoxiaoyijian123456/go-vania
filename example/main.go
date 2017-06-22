@@ -23,7 +23,7 @@ func main() {
 
 	ret, v, err := vania.FairDistributor(targets, objects, weights, false)
 	if err != nil {
-		fmt.Println(err.Error())
+		fmt.Println("Err: ", err.Error())
 		return
 	}
 	fmt.Println(ret)
